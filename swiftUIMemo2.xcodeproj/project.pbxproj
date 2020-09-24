@@ -14,6 +14,7 @@
 		E34AE7F1251BFC0800E860A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34AE7F0251BFC0800E860A0 /* Assets.xcassets */; };
 		E34AE7F4251BFC0800E860A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34AE7F3251BFC0800E860A0 /* Preview Assets.xcassets */; };
 		E34AE7F7251BFC0800E860A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34AE7F5251BFC0800E860A0 /* LaunchScreen.storyboard */; };
+		E34AE805251D4C4900E860A0 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE804251D4C4900E860A0 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E34AE7F3251BFC0800E860A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E34AE7F6251BFC0800E860A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34AE7F8251BFC0800E860A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34AE804251D4C4900E860A0 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		E34AE7E6251BFC0600E860A0 /* swiftUIMemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				E34AE803251D4C3900E860A0 /* Model */,
 				E34AE7E7251BFC0600E860A0 /* AppDelegate.swift */,
 				E34AE7E9251BFC0600E860A0 /* SceneDelegate.swift */,
 				E34AE7EB251BFC0600E860A0 /* MemoListScene.swift */,
@@ -76,6 +79,14 @@
 				E34AE7F3251BFC0800E860A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E34AE803251D4C3900E860A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E34AE804251D4C4900E860A0 /* Memo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				E34AE7E8251BFC0600E860A0 /* AppDelegate.swift in Sources */,
 				E34AE7EA251BFC0600E860A0 /* SceneDelegate.swift in Sources */,
 				E34AE7EC251BFC0600E860A0 /* MemoListScene.swift in Sources */,
+				E34AE805251D4C4900E860A0 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
