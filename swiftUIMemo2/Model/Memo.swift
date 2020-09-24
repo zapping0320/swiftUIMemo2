@@ -20,3 +20,9 @@ class Memo : Identifiable, ObservableObject {
     }
     
 }
+
+extension Memo : Equatable {
+    static func == (lhs:Memo, rhs:Memo) -> Bool {
+        return lhs.id == rhs.id
+    }
+}
