@@ -17,6 +17,7 @@
 		E34AE805251D4C4900E860A0 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE804251D4C4900E860A0 /* Memo.swift */; };
 		E34AE809251EAB6300E860A0 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE808251EAB6300E860A0 /* MemoStore.swift */; };
 		E34AE80D251EB2BD00E860A0 /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */; };
+		E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE811251EB7D400E860A0 /* MemoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E34AE804251D4C4900E860A0 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		E34AE808251EAB6300E860A0 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
+		E34AE811251EB7D400E860A0 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		E34AE7E6251BFC0600E860A0 /* swiftUIMemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				E34AE810251EB7C800E860A0 /* View */,
 				E34AE80B251EB29600E860A0 /* Extension */,
 				E34AE803251D4C3900E860A0 /* Model */,
 				E34AE7E7251BFC0600E860A0 /* AppDelegate.swift */,
@@ -101,6 +104,14 @@
 				E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E34AE810251EB7C800E860A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E34AE811251EB7D400E860A0 /* MemoCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				E34AE7EA251BFC0600E860A0 /* SceneDelegate.swift in Sources */,
 				E34AE7EC251BFC0600E860A0 /* MemoListScene.swift in Sources */,
 				E34AE805251D4C4900E860A0 /* Memo.swift in Sources */,
+				E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
