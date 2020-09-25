@@ -11,8 +11,11 @@ struct MemoListScene: View {
     @EnvironmentObject var store:MemoStore
     
     var body: some View {
-        List(store.list) { memo in
-            Text(memo.content)
+        NavigationView {
+            List(store.list) { memo in
+                Text(memo.content)
+            }
+            .navigationBarTitle("내 메모")
         }
     }
 }
