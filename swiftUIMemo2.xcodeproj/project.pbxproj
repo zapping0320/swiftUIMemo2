@@ -18,6 +18,7 @@
 		E34AE809251EAB6300E860A0 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE808251EAB6300E860A0 /* MemoStore.swift */; };
 		E34AE80D251EB2BD00E860A0 /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */; };
 		E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE811251EB7D400E860A0 /* MemoCell.swift */; };
+		E34AE818251FED3D00E860A0 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE817251FED3D00E860A0 /* ComposeScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E34AE808251EAB6300E860A0 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
 		E34AE811251EB7D400E860A0 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		E34AE817251FED3D00E860A0 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +68,11 @@
 		E34AE7E6251BFC0600E860A0 /* swiftUIMemo2 */ = {
 			isa = PBXGroup;
 			children = (
-				E34AE810251EB7C800E860A0 /* View */,
+				E34AE815251FECBF00E860A0 /* Scene */,
 				E34AE80B251EB29600E860A0 /* Extension */,
 				E34AE803251D4C3900E860A0 /* Model */,
 				E34AE7E7251BFC0600E860A0 /* AppDelegate.swift */,
 				E34AE7E9251BFC0600E860A0 /* SceneDelegate.swift */,
-				E34AE7EB251BFC0600E860A0 /* MemoListScene.swift */,
 				E34AE7F0251BFC0800E860A0 /* Assets.xcassets */,
 				E34AE7F5251BFC0800E860A0 /* LaunchScreen.storyboard */,
 				E34AE7F8251BFC0800E860A0 /* Info.plist */,
@@ -112,6 +113,16 @@
 				E34AE811251EB7D400E860A0 /* MemoCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E34AE815251FECBF00E860A0 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E34AE810251EB7C800E860A0 /* View */,
+				E34AE7EB251BFC0600E860A0 /* MemoListScene.swift */,
+				E34AE817251FED3D00E860A0 /* ComposeScene.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				E34AE7EC251BFC0600E860A0 /* MemoListScene.swift in Sources */,
 				E34AE805251D4C4900E860A0 /* Memo.swift in Sources */,
 				E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */,
+				E34AE818251FED3D00E860A0 /* ComposeScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
