@@ -19,6 +19,7 @@
 		E34AE80D251EB2BD00E860A0 /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */; };
 		E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE811251EB7D400E860A0 /* MemoCell.swift */; };
 		E34AE818251FED3D00E860A0 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE817251FED3D00E860A0 /* ComposeScene.swift */; };
+		E351CB0B2531172E005BA87C /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351CB0A2531172E005BA87C /* KeyboardObserver.swift */; };
 		E38E1DA4252BCCD300C0D3B1 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E1DA3252BCCD300C0D3B1 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		E34AE80C251EB2BD00E860A0 /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
 		E34AE811251EB7D400E860A0 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		E34AE817251FED3D00E860A0 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
+		E351CB0A2531172E005BA87C /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		E38E1DA3252BCCD300C0D3B1 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		E34AE7E6251BFC0600E860A0 /* swiftUIMemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				E351CB09253116F8005BA87C /* Shared */,
 				E34AE815251FECBF00E860A0 /* Scene */,
 				E34AE80B251EB29600E860A0 /* Extension */,
 				E34AE803251D4C3900E860A0 /* Model */,
@@ -126,6 +129,14 @@
 				E34AE817251FED3D00E860A0 /* ComposeScene.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		E351CB09253116F8005BA87C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E351CB0A2531172E005BA87C /* KeyboardObserver.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			files = (
 				E34AE7EF251BFC0600E860A0 /* swiftUIMemo2.xcdatamodeld in Sources */,
 				E34AE809251EAB6300E860A0 /* MemoStore.swift in Sources */,
+				E351CB0B2531172E005BA87C /* KeyboardObserver.swift in Sources */,
 				E34AE7E8251BFC0600E860A0 /* AppDelegate.swift in Sources */,
 				E34AE80D251EB2BD00E860A0 /* DateFormatter+Memo.swift in Sources */,
 				E34AE7EA251BFC0600E860A0 /* SceneDelegate.swift in Sources */,
