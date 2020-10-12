@@ -20,6 +20,7 @@
 		E34AE812251EB7D400E860A0 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE811251EB7D400E860A0 /* MemoCell.swift */; };
 		E34AE818251FED3D00E860A0 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AE817251FED3D00E860A0 /* ComposeScene.swift */; };
 		E351CB0B2531172E005BA87C /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351CB0A2531172E005BA87C /* KeyboardObserver.swift */; };
+		E351CB1E25350135005BA87C /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351CB1D25350135005BA87C /* DetailScene.swift */; };
 		E38E1DA4252BCCD300C0D3B1 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E1DA3252BCCD300C0D3B1 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		E34AE811251EB7D400E860A0 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		E34AE817251FED3D00E860A0 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 		E351CB0A2531172E005BA87C /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		E351CB1D25350135005BA87C /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
 		E38E1DA3252BCCD300C0D3B1 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				E34AE810251EB7C800E860A0 /* View */,
 				E34AE7EB251BFC0600E860A0 /* MemoListScene.swift */,
 				E34AE817251FED3D00E860A0 /* ComposeScene.swift */,
+				E351CB1D25350135005BA87C /* DetailScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				E351CB0B2531172E005BA87C /* KeyboardObserver.swift in Sources */,
 				E34AE7E8251BFC0600E860A0 /* AppDelegate.swift in Sources */,
 				E34AE80D251EB2BD00E860A0 /* DateFormatter+Memo.swift in Sources */,
+				E351CB1E25350135005BA87C /* DetailScene.swift in Sources */,
 				E34AE7EA251BFC0600E860A0 /* SceneDelegate.swift in Sources */,
 				E34AE7EC251BFC0600E860A0 /* MemoListScene.swift in Sources */,
 				E34AE805251D4C4900E860A0 /* Memo.swift in Sources */,
