@@ -29,6 +29,7 @@ struct DetailScene : View {
                 }
             }
         }
+        .navigationBarTitle("내 메모 보기")
     }
 }
 
